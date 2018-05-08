@@ -21,3 +21,9 @@
 /yarn-error.log
 
 .byebug_history
+
+# Ignore all public upload file
+/public/*
+
+# Ignore all store file
+/storage/*

@@ -33,6 +33,13 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'devise'
+gem 'pry'
+gem 'mysql2', '< 0.5'
+gem 'rack-cors', :require => 'rack/cors'
+gem 'rubyzip', '>= 1.0.0'
+gem "roo", "~> 2.7.0"
+gem 'carrierwave'
+gem "mini_magick"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
